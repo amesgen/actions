@@ -47,7 +47,7 @@ jobs:
           - os: ubuntu-latest
             ghc: "8.2.2"
             cabal: "2.0"
-            expect-fail: false
+            expect-fail: true
           - os: ubuntu-latest
             ghc: "8.12.0" # A version that will never exist.
             expect-fail: true
