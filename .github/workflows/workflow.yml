@@ -2,7 +2,7 @@ name: Setup
 on:
   push:
     branches:
-      - main
+      - win-ghc-9.0.1-test
     paths-ignore:
       - "**.md"
   pull_request:
